@@ -30,7 +30,7 @@
 	width:100%;
 	display:flex;
 }
-.team-card1, .team-card2, .team-card3, .team-card4{
+.team-card{
 	width:25%;
 	height:60vh;
 	border:1px solid #f3f3f3;
@@ -47,7 +47,7 @@
 }
 .card-social-icon{
 	display:inline-block;
-	padding:10px;
+	padding:5px 8px;
 	background-color:rgba(243,243,243);
 	border-radius:5px;
 	text-decoration:none;
@@ -63,7 +63,7 @@
 	left:12%;
 	opacity:0;
 }
-.team-card1:hover .card-icons, .team-card2:hover .card-icons, .team-card3:hover .card-icons, .team-card4:hover .card-icons{
+.team-card:hover .card-icons{
 	opacity:1;
 	position:absolute;
 	top:70%; 
